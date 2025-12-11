@@ -1,9 +1,8 @@
 # Database Schema – Google Photos Lite: Memories for Families
 
 **Version:** 1.0
-**Owner:** Sujeeth Tuniki
-**Last Updated:** 2025
-**AI Provider:** Google Vision AI (Gemini Vision API)
+**Owner:** Sujeeth Kumar Tuniki
+**Last Updated:** December 11, 2025
 
 ---
 
