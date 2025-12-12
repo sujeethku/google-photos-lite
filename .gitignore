@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+
+# Backend runtime storage
+backend/storage/
+backend/storage/uploads/
+backend/storage/thumbnails/
+
+# OS
+.DS_Store
