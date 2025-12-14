@@ -12,3 +12,10 @@ backend/storage/thumbnails/
 
 # OS
 .DS_Store
+
+# Local storage / uploads
+backend/backend/storage/
+backend/app/storage/
+*.jpeg
+*.jpg
+*.png

@@ -1,8 +1,8 @@
-# 📸 Photos Lite — Intelligent Photo Curation (V1)
+# 📸 Google Photos Lite — Intelligent Photo Curation (V1)
 
 ## Why this project exists
 
-**Photos Lite (V1)** is a prototype that shows how AI can **remove the manual effort of selecting photos and writing captions** for sharing.
+**Google Photos Lite (V1)** is a prototype that shows how AI can **remove the manual effort of selecting photos and writing captions** for sharing.
 
 Modern photo apps store thousands of photos, but sharing a great moment still requires manual effort:
 
