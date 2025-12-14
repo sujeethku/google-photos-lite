@@ -193,6 +193,6 @@ This project demonstrates:
 
 ## Author
 
-**Sujeeth Kumar Tuniki**
-Senior Product Manager @ Amazon
+**Sujeeth Kumar Tuniki** ||
+Senior Product Manager @ Amazon ||
 Sydney, Australia
