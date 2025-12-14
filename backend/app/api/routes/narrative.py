@@ -1,7 +1,8 @@
 from fastapi import APIRouter
+from app.services.narrative_service import generate_narratives
 
 router = APIRouter()
 
-@router.post("/narrative")
-def generate_narrative():
-    return {"message": "narrative scaffold"}
+@router.get("/narrative")
+def get_narratives():
+    return generate_narratives()

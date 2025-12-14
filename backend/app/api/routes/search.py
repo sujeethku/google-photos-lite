@@ -1,7 +1,19 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Query
+from typing import Optional
+from app.services.search_service import search_photos
 
 router = APIRouter()
 
 @router.get("/search")
-def search_photos(q: str = "", start_date: str = None, end_date: str = None, album_id: str = None):
-    return {"message": "search scaffold", "query": q}
+def search(
+    q: Optional[str] = Query(None, description="Search intent (e.g. beach, baby)"),
+    from_date: Optional[str] = Query(None, description="YYYY-MM-DD"),
+    to_date: Optional[str] = Query(None, description="YYYY-MM-DD"),
+    limit: int = Query(5, description="Top N photos")
+):
+    return search_photos(
+        query=q,
+        from_date=from_date,
+        to_date=to_date,
+        limit=limit
+    )
